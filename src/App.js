@@ -11,7 +11,7 @@ function App() {
 
 
   return (
-    <Router basename="https://www.julienpierlot.be/">
+    <Router basename="https://ju-pierlot.github.io/piradice/">
       <Background />
           <Routes>
             <Route path='/' element={<IndexPage />} exact />
