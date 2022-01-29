@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import IndexPage from "./pages";
+import GamePage from "./pages/game";
+import Background from "./components/background";
+import SetupsPage from "./pages/setups";
+import JoinGamePage from "./pages/joinGame";
+import LobbyPage from "./pages/lobby";
 
 function App() {
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router basename="https://www.julienpierlot.be/">
+      <Background />
+          <Routes>
+            <Route path='/' element={<IndexPage />} exact />
+            <Route path='/game-setups' element={<SetupsPage />} exact />
+            <Route path='/game/:id' element={<GamePage />} exact />
+            <Route path='/join-game' element={<JoinGamePage />} exact />
+            <Route path='/game-lobby/:id' element={<LobbyPage />} exact />
+          </Routes>
+      </Router>
   );
 }
 
