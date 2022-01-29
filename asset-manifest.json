@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/piradice/static/css/main.5365ef79.css",
+    "main.js": "/piradice/static/js/main.45edf031.js",
+    "static/js/787.bc32ab5d.chunk.js": "/piradice/static/js/787.bc32ab5d.chunk.js",
+    "static/media/pirate_4.jpg": "/piradice/static/media/pirate_4.1433b88b6e79d1af0bfc.jpg",
+    "static/media/pirate_6.jpg": "/piradice/static/media/pirate_6.6108179efee07fbe8f17.jpg",
+    "static/media/pirate_5.jpg": "/piradice/static/media/pirate_5.d86ae4e70ea21d49abee.jpg",
+    "static/media/pirate_3.jpg": "/piradice/static/media/pirate_3.24670f487b6edf03f61e.jpg",
+    "static/media/pirate_2.jpg": "/piradice/static/media/pirate_2.cee07eec48b5e74d8bc1.jpg",
+    "static/media/pirate_1.jpg": "/piradice/static/media/pirate_1.975a53c3dd3128318578.jpg",
+    "index.html": "/piradice/index.html",
+    "main.5365ef79.css.map": "/piradice/static/css/main.5365ef79.css.map",
+    "main.45edf031.js.map": "/piradice/static/js/main.45edf031.js.map",
+    "787.bc32ab5d.chunk.js.map": "/piradice/static/js/787.bc32ab5d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5365ef79.css",
+    "static/js/main.45edf031.js"
+  ]
+}
